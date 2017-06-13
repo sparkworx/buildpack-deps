@@ -6,6 +6,10 @@ The full readme is generated over in [docker-library/docs](https://github.com/do
 
 See a change merged here that doesn't show up on the Docker Hub yet? Check [the "library/buildpack-deps" manifest file in the docker-library/official-images repo](https://github.com/docker-library/official-images/blob/master/library/buildpack-deps), especially [PRs with the "library/buildpack-deps" label on that repo](https://github.com/docker-library/official-images/labels/library%2Fbuildpack-deps). For more information about the official images process, see the [docker-library/official-images readme](https://github.com/docker-library/official-images/blob/master/README.md).
 
+# About this Fork
+
+This [fork](https://github.com/sparkworx/buildpack-deps) of [buildpack-deps](https://github.com/docker-library/buildpack-deps) adds support for RPM-based Linux distributions, namely [Oracle Linux](https://registry.hub.docker.com/_/oraclelinux/) and [Centos](https://registry.hub.docker.com/_/centos/). However, it's worth pointing out that due to the dependencies required by buildpack-deps, only version 7 of each can be practically supported. YMMV…
+
 ---
 
 -	[Travis CI:  
